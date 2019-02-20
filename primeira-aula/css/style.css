@@ -12,30 +12,30 @@ p{
 	color: black;
 }
 header {
-	background-color: black;
+	background-color: #000000;
 	height: 5%;
 }
 nav {
-	background-color: blueviolet;
+	background-color: #681e70;
 	height: 15%;
 }
 section {
-	background-color: coral;
+	background-color: #ec3b37;
 	height: 5%;
 	width: 80%;
 }
 article {
-	background-color: aqua;
+	background-color: #00ffff;
 	height: 70%;
 	width: 80%;
 }
 aside {
-	background-color: crimson;
+	background-color: #cf1264;
 	width: 20%;
 	height: 75%;
 	float: right;
 }
 footer {
-	background-color: violet;
+	background-color: #107386;
 	height: 5%;
 }
