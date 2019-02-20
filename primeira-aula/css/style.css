@@ -12,30 +12,38 @@ p{
 	color: black;
 }
 header {
-	background-color: black;
+	background-color: #bfbfbf;
 	height: 5%;
+	width: 95%;
+	float: right;
 }
 nav {
-	background-color: blueviolet;
-	height: 15%;
+	background-color: #2e333e;
+	height: 95%;
+	width: 5%;
+	float: left;
 }
 section {
-	background-color: coral;
-	height: 5%;
-	width: 80%;
+	background-color: #86bdb9;
+	height: 15%;
+	width: 90%;
+	float: left;
 }
 article {
-	background-color: aqua;
-	height: 70%;
-	width: 80%;
+	background-color: #86bdb9;
+	height: 90%;
+	width: 90%;
+	float: left;
 }
 aside {
-	background-color: crimson;
-	width: 20%;
-	height: 75%;
+	background-color: #38918b;
+	width: 5%;
+	height: 95%;
 	float: right;
 }
 footer {
-	background-color: violet;
+	background-color: #bfbfbf;
 	height: 5%;
+	width: 95%;
+	float: left;
 }
