@@ -1,0 +1,41 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+body {
+	height: 100%;
+}
+p{
+	color: white;
+}
+.pBlack {
+	color: black;
+}
+header {
+	background-color: black;
+	height: 5%;
+}
+nav {
+	background-color: blueviolet;
+	height: 15%;
+}
+section {
+	background-color: coral;
+	height: 5%;
+	width: 80%;
+}
+article {
+	background-color: aqua;
+	height: 70%;
+	width: 80%;
+}
+aside {
+	background-color: crimson;
+	width: 20%;
+	height: 75%;
+	float: right;
+}
+footer {
+	background-color: violet;
+	height: 5%;
+}
