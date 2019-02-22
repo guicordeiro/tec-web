@@ -10,10 +10,10 @@ p{
 	font-family: 'Courier New', Courier, monospace;
 }
 .pBlack {
-	color: black;
+	color: black; 
 }
 header {
-	background-color: #bfbfbf;
+	background-color: #000000;
 	height: 5%;
 	width: 95%;
 	float: right;
