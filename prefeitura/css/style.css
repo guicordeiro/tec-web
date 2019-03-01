@@ -10,16 +10,26 @@ body, html{
     width: 5%;
     height: 100% ;
 }
-div{
+.div1{
     width: 10%;
     height: 100%;
     float: left;
+}
+.div2{
+    width: 10%;
+    height: 100%;
+    float: right;
 }
 header {
     width: 80%;
     height: 10%;
     background-color: #7F7770;
+    background-image: "https://github.com/guicordeiro/tec-web/blob/master/prefeitura/imagens/header.jpg";
     float: left;
+    text-align: center;
+}
+p {
+    padding: 0.5em;
 }
 nav {
     width: 80%;
