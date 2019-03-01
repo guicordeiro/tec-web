@@ -24,9 +24,10 @@ header {
     width: 80%;
     height: 10%;
     background-color: #7F7770;
-    background-image: "https://github.com/guicordeiro/tec-web/blob/master/prefeitura/imagens/header.jpg";
+    background-image: url("https://raw.githubusercontent.com/guicordeiro/tec-web/master/prefeitura/imagens/header.jpg");
+    background-position: center;
+    background-size: cover;
     float: left;
-    text-align: center;
 }
 p {
     padding: 0.5em;
