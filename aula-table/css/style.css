@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+::-webkit-scrollbar {
+  width: 1%;
+  height: 1%;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body, html{
+    height: 100%;
+    background-color: #E5D7CA;
+}
+.lat {
+    width: 5%;
+    height: 100% ;
+}
+.div1{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.div2{
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+header {
+    width: 80%;
+    height: 10%;
+    background-color: #7F7770;
+    background-image: url("https://raw.githubusercontent.com/guicordeiro/tec-web/master/prefeitura/imagens/header.jpg");
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+p {
+    padding: 0.5em;
+}
+nav {
+    width: 15%;
+    height: 90%;
+    background-color: #7F7770;
+    float: left;
+}
+article {
+	width: 65%;
+	height: 90%;
+	background-color: #D4C7BB;
+	float: left;
+	overflow: auto;
+}
+table tr td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+}
+.tible {
+	text-align: center;
+}
