@@ -61,13 +61,15 @@ article {
 	float: left;
 	overflow: auto;
 }
-table tr td{
-	border: 1px solid black;
-	border-collapse: collapse;
+table, th, td{
+	border-color: #000000;
+	border: 1px solid;
 }
-th, td {
-	padding: 5px;
+td, th {
+	padding: 2px;
+	display: table-cell;
 }
-.tible {
+table {
 	text-align: center;
+	border-collapse: collapse;
 }
