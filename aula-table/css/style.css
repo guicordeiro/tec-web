@@ -22,6 +22,10 @@ body, html{
     height: 100%;
     background-color: #E5D7CA;
 }
+h3 {
+	text-align: center;
+	padding-top: 2%;
+}
 .lat {
     width: 5%;
     height: 100% ;
@@ -31,10 +35,25 @@ body, html{
     height: 100%;
     float: left;
 }
+article div.div1 {
+    width: 5%;
+    height: 90%;
+    float: left;
+}
 .div2{
     width: 10%;
     height: 100%;
     float: right;
+}
+article div.div2 {
+    width: 5%;
+    height: 90%;
+    float: right;
+}
+article div.top {
+	width: 100%;
+	height: 10%;
+	float: left;
 }
 header {
     width: 80%;
@@ -45,8 +64,9 @@ header {
     background-size: cover;
     float: left;
 }
-p {
-    padding: 0.5em;
+.blueviolet {
+    color: blueviolet;
+	font-style: italic;
 }
 nav {
     width: 15%;
@@ -61,13 +81,40 @@ article {
 	float: left;
 	overflow: auto;
 }
-table tr td{
-	border: 1px solid black;
+table {
 	border-collapse: collapse;
+	width: 90%;
+	float: left;
 }
-th, td {
-	padding: 5px;
+td {
+	padding: 2px;
+	font-size: 12px;
+	text-align: left;
 }
-.tible {
-	text-align: center;
+.td1 {
+	width: 40%;
+	height: 10%;
+}
+.td2 {
+	width: 60%;
+	height: 10%;
+}
+.border {
+	padding: 2px;
+	border: 1px solid black;
+}
+.btop {
+	border-top: 1px solid black;
+}
+.bbottom {
+	border-bottom: 1px solid black;
+}
+.bleft {
+	border-left: 1px solid black;
+}
+.bright {
+	border-right: 1px solid black;
+}
+.title {
+	color: #FFFFFF;
 }
