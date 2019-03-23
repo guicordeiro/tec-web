@@ -81,7 +81,6 @@ article {
 	float: left;
 	overflow: auto;
 }
-<<<<<<< HEAD
 table {
 	border-collapse: collapse;
 	width: 90%;
@@ -118,17 +117,4 @@ td {
 }
 .title {
 	color: #FFFFFF;
-=======
-table, th, td{
-	border-color: #000000;
-	border: 1px solid;
-}
-td, th {
-	padding: 2px;
-	display: table-cell;
-}
-table {
-	text-align: center;
-	border-collapse: collapse;
->>>>>>> 98aab03aae70687ea4904738e08e4dbd4881c859
 }
