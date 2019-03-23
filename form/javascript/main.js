@@ -1,24 +1,13 @@
-function addIconClasses() {
-    $(".img-p").each(function(){
-        var scre = $("body").width();
-        if ( scre >= 425 ) {
-            $(".img-p").attr("scr", "image/high-school-maker.png");
-        } if ( scre > 992 && scre < 1200 ) {
-            $(".icon").addClass("icon-md");
-        } if ( scre > 768 && scre < 992 ) {
-            $(".icon").addClass("icon-sm");
-        }  if ( scre < 768 ) {
-            $(".icon").addClass("icon-xs");
-        }
-    });
+function setImagem (){
+	var w = window.innerWidth;
+	if(w >= 450){
+		document.querySelector("#img-p").setAttribute('src', 'image/high-school-maker.png');
+	} else {
+		document.querySelector("#img-p").setAttribute('src', 'image/high-school-maker-black.png');
+	}
 }
 
-$(document).ready(function () {
-    // Adicionar classes ao carregar o documento
-    addIconClasses();
-
-    $(window).resize(function() {
-        // Adicionar sempre que a tela for redimensionada
-        addIconClasses();
-    });
-});
+setImagem();
+$( window ).resize(function() {
+	document.location.reload(setImagem());
+ });
